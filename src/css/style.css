@@ -1,12 +1,5 @@
 * {
     box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-p,
-body {
     margin: 0;
     padding: 0;
 }
@@ -16,9 +9,9 @@ body {
     margin: 0 auto;
 }
 /* ----------------------------------------------------- */
-/* main screen */
+/* promo screen */
 /* ----------------------------------------------------- */
-.first-screen {
+.promo {
     background: url("../img/main_bg.jpg") center/cover no-repeat fixed;
     height: 800px;
     color: white;
@@ -26,49 +19,49 @@ body {
     text-transform: uppercase;
 }
 
-.first-screen__logo-block {
+.promo__logo-block {
     text-align: center;
 }
 
-.first-screen-logo {
+.promo__logo {
     margin-top: 22px;
     width: 72px;
     height: 89px;
 }
 
-.first-screen__logo-text {
+.promo__logo-text {
     font-size: 16px;
     margin-top: 13px;
 }
 
-.first-screen h3 {
+.promo h1 {
     color: #f9bf3b;
     font-size: 41px;
-}
-
-.first-screen h2 {
-    font-size: 80px;
-    margin-top: 12px;
-}
-
-.first-screen__h3-first {
     margin-top: 52px;
 }
 
-.first-screen__h3-second {
+.promo h3 {
+    color: #f9bf3b;
+    font-size: 41px;
     margin-top: 12px;
 }
 
-.first-screen__description {
+.promo h2 {
+    font-size: 80px;
+    margin-top: 12px;
+    font-weight: 900;
+}
+
+.promo__description {
     font-size: 21px;
     margin-top: 20px;
     text-transform: none;
 }
-.first-screen__description span {
+.promo__description span {
     color: #f9bf3b;
 }
 
-.first-screen button {
+.promo button {
     width: 315px;
     height: 72px;
     margin-top: 75px;
@@ -80,11 +73,11 @@ body {
     text-transform: uppercase;
 }
 
-.first-screen__arrowBlock img {
+.promo__arrow-block img {
     margin-top: 10px;
 }
 
-.first-screen__arrowBlock p {
+.promo__arrow-block p {
     margin-top: 75px;
     font-size: 15px;
 }
@@ -125,9 +118,9 @@ body {
 
 .free-webinars__item {
     width: 360px;
-    margin: 0 15px;
 }
 
 .free-webinars__icon-description {
+    margin-top: 15px;
     color: #4a4a4a;
 }
