@@ -11,10 +11,15 @@ body {
     padding: 0;
 }
 
+/* ----------------------------------------------------- */
+/* main screen */
+/* ----------------------------------------------------- */
 .first-screen {
     background: url("../img/main_bg.jpg") center/cover no-repeat fixed;
     height: 800px;
     color: white;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .first-screen__logo-block {
@@ -27,22 +32,18 @@ body {
     height: 89px;
 }
 
-h1.first-screen__logo-text {
+.first-screen__logo-text {
     font-size: 16px;
     margin-top: 13px;
-    text-transform: uppercase;
 }
 
 .first-screen h3 {
     color: #f9bf3b;
     font-size: 41px;
-    text-align: center;
-    text-transform: uppercase;
 }
+
 .first-screen h2 {
     font-size: 80px;
-    text-align: center;
-    text-transform: uppercase;
     margin-top: 12px;
 }
 
@@ -55,14 +56,13 @@ h1.first-screen__logo-text {
 }
 
 .first-screen__description {
-    text-align: center;
     font-size: 21px;
     margin: 0 390px;
     margin-top: 20px;
+    text-transform: none;
 }
 .first-screen__description span {
     color: #f9bf3b;
-    text-transform: uppercase;
 }
 
 .first-screen button {
@@ -77,10 +77,6 @@ h1.first-screen__logo-text {
     text-transform: uppercase;
 }
 
-.first-screen__arrowBlock {
-    text-align: center;
-    text-transform: uppercase;
-}
 .first-screen__arrowBlock img {
     margin-top: 10px;
 }
@@ -88,4 +84,47 @@ h1.first-screen__logo-text {
 .first-screen__arrowBlock p {
     margin-top: 75px;
     font-size: 15px;
+}
+/* ----------------------------------------------------- */
+/* free-webinars */
+/* ----------------------------------------------------- */
+.free-webinars {
+    height: 592px;
+    background-color: #efefef;
+    /* prevent collapsing margins */
+    border-top: 1px solid transparent;
+    text-align: center;
+}
+
+.free-webinars h2 {
+    text-transform: uppercase;
+    color: #252525;
+    font-size: 30px;
+    margin-top: 74px;
+}
+.free-webinars__horizontal-line {
+    height: 4px;
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 14px;
+    background-color: #f9bf3b;
+}
+.free-webinars h3 {
+    margin-top: 15px;
+    color: #4a4a4a;
+    font-size: 23px;
+}
+.free-webinars__icon-wrapper {
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+}
+
+.free-webinars__item {
+    width: 360px;
+    margin: 0 15px;
+}
+
+.free-webinars__icon-description {
+    color: #4a4a4a;
 }
