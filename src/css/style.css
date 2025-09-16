@@ -8,6 +8,24 @@
     width: 1140px;
     margin: 0 auto;
 }
+
+.button {
+    background-image: linear-gradient(to bottom, #feb05d, #ff4d00);
+    width: 315px;
+    height: 72px;
+    color: #fff;
+    font-size: 21px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
+.horizontal-line {
+    height: 4px;
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 14px;
+    background-color: #f9bf3b;
+}
 /* ----------------------------------------------------- */
 /* promo screen */
 /* ----------------------------------------------------- */
@@ -62,15 +80,7 @@
 }
 
 .promo button {
-    width: 315px;
-    height: 72px;
     margin-top: 75px;
-    display: block;
-    margin: 75px auto 0 auto;
-    border-radius: 5px;
-    background-image: linear-gradient(to bottom, #feb05d, #ff4d00);
-    font-size: 21px;
-    text-transform: uppercase;
 }
 
 .promo__arrow-block img {
@@ -98,13 +108,11 @@
     font-size: 30px;
     margin-top: 74px;
 }
-.free-webinars__horizontal-line {
-    height: 4px;
-    width: 220px;
-    margin: 0 auto;
+
+.free-webinars .horizontal-line {
     margin-top: 14px;
-    background-color: #f9bf3b;
 }
+
 .free-webinars h3 {
     margin-top: 15px;
     color: #4a4a4a;
@@ -123,4 +131,144 @@
 .free-webinars__icon-description {
     margin-top: 15px;
     color: #4a4a4a;
+}
+/* ----------------------------------------------------- */
+/* what is online radio */
+/* ----------------------------------------------------- */
+.needed {
+    background-color: #000;
+    height: 564px;
+    /* prevent collapsing margins */
+    border-top: 1px solid transparent;
+    text-align: right;
+    position: relative;
+}
+.needed h3 {
+    color: #f9bf3b;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+.needed__description {
+    font-size: 16px;
+    color: #fff;
+    font-weight: lighter;
+    width: 750px;
+    float: right;
+    margin-top: 16px;
+    position: relative;
+    z-index: 1;
+}
+.needed__description-bold {
+    font-weight: bold;
+}
+.needed img {
+    position: absolute;
+    left: 307px;
+    top: 191px;
+}
+
+/* ----------------------------------------------------- */
+/* What is online radio and why is it needed? */
+/* ----------------------------------------------------- */
+.able {
+    background: url("../img/able-bg.jpg") center/cover no-repeat fixed;
+    color: #efefef;
+    /* prevent collapsing margins */
+    border-top: 1px solid transparent;
+    height: 450px;
+}
+
+.able h2 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.able .horizontal-line {
+    margin-top: 14px;
+}
+
+.able__wrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.able__item {
+    width: 224px;
+    text-align: center;
+}
+.able__description {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 18px;
+}
+
+.able__circle {
+    background-color: #f9bf3b;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+/* ----------------------------------------------------- */
+/* Present                                              */
+/* ----------------------------------------------------- */
+.present {
+    background-color: #efefef;
+    height: 613px;
+    text-align: center;
+}
+
+.present img {
+    margin-top: 80px;
+    width: 150px;
+    height: 150px;
+}
+
+.present div {
+    margin-top: 80px;
+    color: #252525;
+    font-size: 30px;
+    display: inline-block;
+    width: 1120px;
+}
+
+.present button {
+    margin-top: 60px;
+}
+/* ----------------------------------------------------- */
+/* First webinar                                       */
+/* ----------------------------------------------------- */
+.first-webinar {
+    /* prevent collapsing margins */
+    border-top: 1px solid transparent;
+    background-color: #000;
+    height: 528px;
+    text-align: center;
+}
+.first-webinar img {
+    margin-top: 50px;
+}
+.first-webinar__header {
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+}
+
+.first-webinar__date {
+    margin-top: 20px;
+    color: #f9bf3b;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.first_webinar__descr {
+    margin-top: 20px;
+    font-size: 23px;
+    color: #fff;
 }
