@@ -11,6 +11,10 @@ body {
     padding: 0;
 }
 
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
 /* ----------------------------------------------------- */
 /* main screen */
 /* ----------------------------------------------------- */
@@ -57,7 +61,6 @@ body {
 
 .first-screen__description {
     font-size: 21px;
-    margin: 0 390px;
     margin-top: 20px;
     text-transform: none;
 }
@@ -117,7 +120,7 @@ body {
 .free-webinars__icon-wrapper {
     margin-top: 42px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .free-webinars__item {
