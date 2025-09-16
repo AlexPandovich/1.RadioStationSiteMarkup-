@@ -16,8 +16,10 @@
     color: #fff;
     font-size: 21px;
     text-transform: uppercase;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .horizontal-line {
     height: 4px;
