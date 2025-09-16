@@ -11,8 +11,8 @@
 
 .button {
     background-image: linear-gradient(to bottom, #feb05d, #ff4d00);
-    width: 315px;
-    height: 72px;
+    min-width: 315px;
+    min-height: 72px;
     color: #fff;
     font-size: 21px;
     text-transform: uppercase;
@@ -20,7 +20,9 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    padding: 0 15px;
 }
+
 .horizontal-line {
     height: 4px;
     width: 220px;
