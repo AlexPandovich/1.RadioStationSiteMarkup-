@@ -272,3 +272,25 @@
     font-size: 23px;
     color: #fff;
 }
+/* ----------------------------------------------------- */
+/* footer                                  */
+/* ----------------------------------------------------- */
+.footer {
+    text-align: center;
+    color: #888;
+    height: 165px;
+    background-color: #1a1a1a;
+    /* prevent collapsing margins */
+    border-top: 1px solid transparent;
+    font-size: 16px;
+}
+.footer__refs {
+    margin-top: 58px;
+}
+.footer a,
+.footer a:visited {
+    color: #888;
+}
+.footer__call-us {
+    margin-top: 10px;
+}
