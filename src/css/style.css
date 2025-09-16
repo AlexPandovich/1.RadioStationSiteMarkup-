@@ -157,11 +157,13 @@
     color: #fff;
     font-weight: lighter;
     width: 750px;
-    float: right;
+    display: inline-block;
+
     margin-top: 16px;
     position: relative;
     z-index: 1;
 }
+
 .needed__description-bold {
     font-weight: bold;
 }
