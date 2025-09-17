@@ -132,6 +132,10 @@
     width: 360px;
 }
 
+.free-webinars img {
+    width: 100%;
+}
+
 .free-webinars__icon-description {
     margin-top: 15px;
     color: #4a4a4a;
@@ -157,6 +161,8 @@
     position: absolute;
     left: 307px;
     top: 191px;
+    width: 615px;
+    height: 351px;
 }
 
 .needed__description {
@@ -223,6 +229,10 @@
     margin: 0 auto;
 }
 
+.able__circle img {
+    width: 50%;
+}
+
 /* ----------------------------------------------------- */
 /* Present                                              */
 /* ----------------------------------------------------- */
@@ -261,6 +271,8 @@
 }
 .first-webinar img {
     margin-top: 50px;
+    width: 500px;
+    height: 250px;
 }
 .first-webinar__header {
     margin-top: 40px;
