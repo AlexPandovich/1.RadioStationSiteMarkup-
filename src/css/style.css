@@ -129,11 +129,13 @@
 }
 
 .free-webinars__item {
-    width: 360px;
+    width: 300px;
 }
 
 .free-webinars img {
     width: 100%;
+    max-height: 200px;
+    object-fit: cover;
 }
 
 .free-webinars__icon-description {
@@ -161,8 +163,10 @@
     position: absolute;
     left: 307px;
     top: 191px;
+
     width: 615px;
-    height: 351px;
+    max-height: 351px;
+    object-fit: cover;
 }
 
 .needed__description {
@@ -204,7 +208,7 @@
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-start;
 }
 .able__item {
     width: 224px;
@@ -230,7 +234,8 @@
 }
 
 .able__circle img {
-    width: 50%;
+    max-width: 65%;
+    object-fit: cover;
 }
 
 /* ----------------------------------------------------- */
@@ -246,6 +251,7 @@
     margin-top: 80px;
     width: 150px;
     height: 150px;
+    object-fit: cover;
 }
 
 .present div {
@@ -273,6 +279,7 @@
     margin-top: 50px;
     width: 500px;
     height: 250px;
+    object-fit: cover;
 }
 .first-webinar__header {
     margin-top: 40px;
