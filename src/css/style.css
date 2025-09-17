@@ -1,7 +1,7 @@
+@import "normalize.css";
+
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 .container {
@@ -239,7 +239,7 @@
 }
 
 /* ----------------------------------------------------- */
-/* Present                                              */
+/* Present                                               */
 /* ----------------------------------------------------- */
 .present {
     background-color: #efefef;
