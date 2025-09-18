@@ -63,12 +63,14 @@
     color: #f9bf3b;
     font-size: 41px;
     margin-top: 52px;
+    font-weight: 900;
 }
 
 .promo h3 {
     color: #f9bf3b;
     font-size: 41px;
     margin-top: 12px;
+    font-weight: 900;
 }
 
 .promo h2 {
@@ -88,6 +90,7 @@
 
 .promo button {
     margin-top: 75px;
+    font-size: 21px;
 }
 
 .promo__arrow-block img {
@@ -144,6 +147,7 @@
 .free-webinars__icon-description {
     margin-top: 15px;
     color: #4a4a4a;
+    font-weight: 300;
 }
 /* ----------------------------------------------------- */
 /* what is online radio */
@@ -160,6 +164,8 @@
     color: #f9bf3b;
     text-transform: uppercase;
     margin-top: 100px;
+    font-weight: 900;
+    font-size: 30px;
 }
 
 .needed img {
@@ -173,16 +179,18 @@
 }
 
 .needed__description {
-    font-size: 16px;
     color: #fff;
-    font-weight: lighter;
-    padding-left: 390px;
     margin-top: 16px;
     position: relative;
+    padding-left: 390px;
 }
 
-.needed__description-bold {
-    font-weight: bold;
+.needed__description div {
+    font-weight: 300;
+}
+
+.needed__description-medium {
+    font-weight: 500;
 }
 
 /* ----------------------------------------------------- */
@@ -201,6 +209,7 @@
     text-align: center;
     text-transform: uppercase;
     margin-top: 80px;
+    font-weight: normal;
 }
 
 .able .horizontal-line {
@@ -223,6 +232,7 @@
     font-size: 16px;
     font-weight: lighter;
     margin-top: 18px;
+    font-size: 300;
 }
 
 .able__circle {
@@ -263,10 +273,12 @@
     font-size: 30px;
     display: inline-block;
     width: 1120px;
+    font-weight: 500;
 }
 
 .present button {
     margin-top: 60px;
+    font-size: 500;
 }
 /* ----------------------------------------------------- */
 /* First webinar                                       */
@@ -289,6 +301,7 @@
     text-transform: uppercase;
     color: #fff;
     font-size: 30px;
+    font-weight: 500;
 }
 
 .first-webinar__date {
@@ -296,11 +309,13 @@
     color: #f9bf3b;
     text-transform: uppercase;
     font-size: 36px;
+    font-weight: 900;
 }
 .first_webinar__descr {
     margin-top: 20px;
     font-size: 23px;
     color: #fff;
+    font-weight: 500;
 }
 /* ----------------------------------------------------- */
 /* footer                                  */
@@ -320,7 +335,9 @@
 .footer a,
 .footer a:visited {
     color: #888;
+    font-weight: 300;
 }
 .footer__call-us {
     margin-top: 10px;
+    font-weight: 300;
 }
