@@ -1,3 +1,5 @@
+@import "./modern-normalize.css";
+@import "./reset-some-values.css";
 @import "./fonts.css";
 
 * {
@@ -6,7 +8,7 @@
 
     font-family: Roboto, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 .container {
@@ -20,6 +22,7 @@
     min-height: 72px;
     color: #fff;
     font-size: 21px;
+    font-weight: 500;
     text-transform: uppercase;
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
     border: none;
@@ -191,7 +194,7 @@
     font-weight: 300;
 }
 
-.needed__description-medium {
+.needed__description .needed__description-medium {
     font-weight: 500;
 }
 
@@ -211,7 +214,6 @@
     text-align: center;
     text-transform: uppercase;
     margin-top: 80px;
-    font-weight: normal;
 }
 
 .able .horizontal-line {
@@ -260,16 +262,21 @@
     background-color: #efefef;
     height: 613px;
     text-align: center;
+    /* prevent collapsing margins */
+    border-top: 1px solid transparent;
 }
 
+/* .present .present__wrapper {
+    padding: 80px 0 80px 0;
+} */
 .present img {
-    margin-top: 80px;
     width: 150px;
     height: 150px;
     object-fit: cover;
+    margin-top: 80px;
 }
 
-.present div {
+.present__descr {
     margin-top: 80px;
     color: #252525;
     font-size: 30px;
@@ -280,7 +287,6 @@
 
 .present button {
     margin-top: 60px;
-    font-size: 500;
 }
 /* ----------------------------------------------------- */
 /* First webinar                                       */
